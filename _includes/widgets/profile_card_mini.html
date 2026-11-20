@@ -10,26 +10,34 @@
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid" 
+                                {% if site.data.profile.portrait_caption %}
                                 data-toggle="tooltip" 
                                 data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}">
+                                title="{{ site.data.profile.portrait_caption }}"
+                                {% endif %}
+                                alt="{{ site.data.profile.primary_name }}">
                         </div>
                         <div class="mb-3 d-md-none text-center">
-                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="max-width: 50%;" alt="Portrait">
+                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="max-width: 50%; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;" alt="{{ site.data.profile.primary_name }}">
                         </div>
                         {% endif %}
                     </div>
                 </div>
                 <div class="row">
                     <div class="col text-center h4">
-                        {{ site.data.profile.primary_name }}
+                        {{ site.data.profile.primary_name }}{% if site.data.profile.secondary_name and site.data.profile.secondary_name != "" %} <small class="no-break">{{ site.data.profile.secondary_name }}</small>{% endif %}
                     </div>
                 </div>
 
                 <div class="row small">
                     <div class="col text-center">
                         {% for position in site.data.profile.positions %}
-                        {{ position.name }}<br/>
+                        <div class="mb-1">
+                            {% if position.logo -%}
+                            <img src="{{ position.logo | relative_url }}" alt="Logo" class="inline-badge"/>
+                            {%- endif %}
+                            {{ position.name }}
+                        </div>
                         {% endfor %}
                     </div>
                 </div>

@@ -1,58 +1,88 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Luoming Hu"
+secondary_name: "(胡洛铭)"
+navbar_name: "Luoming Hu (胡洛铭)"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- logo: /assets/images/badges/Fudan_logo.png
+  name: Incoming Ph.D. Student, Fudan University (Fall 2027)
+- logo: /assets/images/badges/DUT_logo.png
+  name: B.S. Student in AI, Dalian University of Technology
 
-
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+email: "huluoming2004@163.com"
+# cv_link: /assets/pdf/cv.pdf  # Place a sanitized public CV PDF (without phone numbers) here before enabling
+# gscholar:  # Add Google Scholar ID when available
+github: Si1entt
+# twitter:  # Add X/Twitter handle (without '@') if desired
+# linkedin:  # Add LinkedIn ID if desired
+# orcid:  # Add ORCID iD when available
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a senior B.S. student majoring in Artificial Intelligence (Innovation Class) at <strong>Dalian University of Technology (DUT)</strong> (GPA: 93.01 / 100, Rank: 1 / 58), and an <strong>incoming Direct-PhD student (starting Fall 2027)</strong> at the School of Data Science, <strong>Fudan University</strong>, where I will be advised by <a href="http://www.fudan-disc.com/people/zywei" target="_blank">Prof. Zhongyu Wei (魏忠钰)</a> in the <a href="http://www.fudan-disc.com/" target="_blank">Data Intelligence and Social Computing Lab (Fudan DISC)</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    During my undergraduate studies, I have been working as a research intern at the <strong>DUT Information Retrieval Lab (DUTIR)</strong> under the supervision of Assoc. Prof. Liang Yang and Prof. Hongfei Lin, and I have also collaborated with Prof. Yanming Shen on scientific LLM agents.
+  </p>
+  <p>
+    My research centers on understanding, aligning, and empowering <strong>Large Language Models (LLMs)</strong> across social, legal, and scientific domains. Specifically, my core research interests include:
+    <strong>LLMs &amp; Post-Training</strong> (persona modeling, preference &amp; value alignment, and human-AI collaboration),
+    <strong>Mechanistic Interpretability &amp; AI Safety</strong> (latent representation probing, activation steering, and intrinsic moral alignment),
+    <strong>LLM Agents &amp; Social/Judicial Computing</strong> (structured cognitive workflows, social simulation, and Legal AI), and
+    <strong>AI for Science</strong> (evolutionary knowledge agents for protein and materials discovery).
+  </p>
+  <p>
+    I always welcome academic discussions and potential collaborations—please feel free to reach out at <a href="mailto:huluoming2004@163.com">huluoming2004@163.com</a> or my institutional email <a href="mailto:huluoming2004@mail.dlut.edu.cn">huluoming2004@mail.dlut.edu.cn</a>.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+# portrait_url: /assets/images/photos/portrait_formal.jpg  # Uncomment to use formal portrait
+# portrait_caption: ""  # Optional hover tooltip caption
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Fudan University
+  logo: /assets/images/badges/Fudan_logo.png
+  dept: School of Data Science (Fudan DISC Lab)
+  position: >-
+    Direct-PhD Student in Data Science<br/>
+    Advisor: <a href="http://www.fudan-disc.com/people/zywei" target="_blank">Prof. Zhongyu Wei</a>
+  date: Incoming Fall 2027
+- name: Dalian University of Technology
+  logo: /assets/images/badges/DUT_logo.png
+  dept: School of Future Technology / School of Artificial Intelligence
+  position: >-
+    B.S. in Artificial Intelligence (Innovation Class)<br/>
+    GPA: 93.01 / 100, Rank: 1 / 58
+  date: Sep. 2023 - Jun. 2027
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: DUT Information Retrieval Lab (DUTIR)
+  dept: "Dalian University of Technology (Advisors: Assoc. Prof. Liang Yang & Prof. Hongfei Lin)"
+  position: Undergraduate Research Intern
+  date: 2024 - Present
+- name: National-Level College Student Innovation Training Program
+  dept: "Dalian University of Technology (Advisor: Assoc. Prof. Liang Yang)"
+  position: Principal Investigator
+  date: 2025 - 2026
+- name: National Key R&D Program of China
+  dept: "Grant No. 2024YFA1012704 (Judicial Full-Process Modeling)"
+  position: Student Researcher
+  date: 2024 - 2026
 
 awards:
-- name: Award Name 2
+- name: National Scholarship (Top 1% Nationwide), Ministry of Education
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Outstanding Camper, National AI Selection Camp, Zhongguancun Academy
+  date: 2026
+- name: National First Prize, 16th Lanqiao Cup & 1st Zhongshu Cup AIGC Competition (Team Leader)
+  date: 2025
+- name: KE Holdings Scholarship, Dalian University of Technology
+  date: 2025
+- name: First-Class Academic Excellence Scholarship (×2), Dalian University of Technology
+  date: 2024, 2025
+- name: National Third Prize, China AI and Law Challenge (CAIL 2024)
+  date: 2024
+- name: Provincial Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)
+  date: 2024
+- name: University Outstanding Merit Student, Dalian University of Technology
+  date: 2024
