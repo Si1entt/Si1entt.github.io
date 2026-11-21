@@ -17,5 +17,4 @@ authors:
 links:
   Paper: https://aclanthology.org/2026.acl-long.1410/
   Code: https://github.com/Si1entt/To-Judge-or-Not-to-Judge
-  OpenReview: https://openreview.net/forum?id=AoefBg0cuP
 ---
