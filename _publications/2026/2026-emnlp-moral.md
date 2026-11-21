@@ -1,6 +1,6 @@
 ---
 title:          "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
-date:           2026-09-15 00:01:00 +0800
+date:           2026-08-20 00:01:00 +0800
 selected:       true
 pub:            "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
 pub_post:       ","

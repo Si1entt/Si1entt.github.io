@@ -1,6 +1,6 @@
 ---
 title:          "To Judge or Not to Judge: Can Large Language Models Leverage the Dispute Focus in Legal Judgment?"
-date:           2026-10-15 00:01:00 +0800
+date:           2026-05-16 00:01:00 +0800
 selected:       true
 pub:            "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
 pub_post:       ","

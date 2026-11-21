@@ -1,6 +1,6 @@
 ---
 title:          "KnowEvo: Knowledge Evolution for Protein Optimization"
-date:           2026-08-15 00:01:00 +0800
+date:           2026-09-26 00:01:00 +0800
 selected:       true
 pub:            "Advances in Neural Information Processing Systems"
 pub_post:       ","
