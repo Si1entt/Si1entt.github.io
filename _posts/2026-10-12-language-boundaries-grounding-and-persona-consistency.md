@@ -1,5 +1,6 @@
 ---
 layout: blog_post
+published: false
 title: "Notes on Language Boundaries, Reality Grounding, and Persona Consistency in Post-Training"
 date: 2026-10-12 16:00:00 +0800
 tags:

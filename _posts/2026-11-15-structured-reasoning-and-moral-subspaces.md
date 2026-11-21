@@ -1,5 +1,6 @@
 ---
 layout: blog_post
+published: false
 title: "From Judicial Reasoning to Moral Subspaces: Toward Structured and Intrinsic Alignment in LLMs"
 date: 2026-11-15 14:00:00 +0800
 tags:
